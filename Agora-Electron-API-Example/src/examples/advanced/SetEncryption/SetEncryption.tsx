@@ -3,7 +3,7 @@ import AgoraRtcEngine from 'agora-electron-sdk';
 import { List, Card, Input } from 'antd';
 import config from '../../config/agora.config';
 import DropDownButton from '../../component/DropDownButton';
-import styles from '../../config/public.scss';
+import styles from '../../config/public.css';
 import JoinChannelBar from '../../component/JoinChannelBar';
 import {
   RoleTypeMap,

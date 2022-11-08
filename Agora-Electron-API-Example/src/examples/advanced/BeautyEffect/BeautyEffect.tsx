@@ -7,7 +7,7 @@ import SliderBar from '../../component/SliderBar';
 import Window from '../../component/Window';
 import { FpsMap, ResolutionMap, RoleTypeMap } from '../../config';
 import config from '../../config/agora.config';
-import styles from '../../config/public.scss';
+import styles from '../../config/public.css';
 import { configMapToOptions } from '../../util';
 
 interface User {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import AgoraRtcEngine from 'agora-electron-sdk';
-import styles from './index.scss';
+import styles from './index.css';
 
 interface WindowProps {
   rtcEngine: AgoraRtcEngine;

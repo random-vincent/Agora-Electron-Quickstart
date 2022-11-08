@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import AgoraRtcEngine from 'agora-electron-sdk';
 import { List, Card, Input } from 'antd';
 import config from '../../config/agora.config';
-import styles from '../../config/public.scss';
+import styles from '../../config/public.css';
 import JoinChannelBar from '../../component/JoinChannelBar';
-import createDataStreamStyle from './CreateDataStream.scss';
+import createDataStreamStyle from './CreateDataStream.css';
 
 const { Search } = Input;
 interface User {

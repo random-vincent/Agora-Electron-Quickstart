@@ -2,9 +2,9 @@ import AgoraRtcEngine from 'agora-electron-sdk';
 import { Button, Card, List, message, Switch } from 'antd';
 import React, { Component } from 'react';
 import config from '../../config/agora.config';
-import styles from '../../config/public.scss';
+import styles from '../../config/public.css';
 import { readImage } from '../../util/base64';
-import screenStyle from './ScreenCapture.scss';
+import screenStyle from './ScreenCapture.css';
 
 interface CaptureInfo {
   type: number;

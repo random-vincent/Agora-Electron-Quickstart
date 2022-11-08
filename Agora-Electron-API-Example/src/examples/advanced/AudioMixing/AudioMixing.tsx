@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import AgoraRtcEngine from 'agora-electron-sdk';
 import { List, Card, Input, Button } from 'antd';
 import config from '../../config/agora.config';
-import styles from '../../config/public.scss';
+import styles from '../../config/public.css';
 import JoinChannelBar from '../../component/JoinChannelBar';
 import Window from '../../component/Window';
 import SliderBar from '../../component/SliderBar';

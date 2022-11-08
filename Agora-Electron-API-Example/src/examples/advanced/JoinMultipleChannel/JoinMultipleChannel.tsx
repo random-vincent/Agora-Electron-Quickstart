@@ -3,7 +3,7 @@ import AgoraRtcEngine from 'agora-electron-sdk';
 import { List, Card, Button } from 'antd';
 import config from '../../config/agora.config';
 
-import styles from '../../config/public.scss';
+import styles from '../../config/public.css';
 
 interface State {
   channels: any[];

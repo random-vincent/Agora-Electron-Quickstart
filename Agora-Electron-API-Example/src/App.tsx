@@ -11,7 +11,7 @@ import {
   DingtalkOutlined,
   InfoCircleOutlined,
 } from '@ant-design/icons';
-import './App.global.scss';
+import './App.global.css';
 import { Layout, Menu } from 'antd';
 import AuthInfoScreen from './examples/config/AuthInfoScreen';
 import basicRoute from './examples/basic';
